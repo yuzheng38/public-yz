@@ -102,7 +102,7 @@ sub parse_rules {
 		push(@one_rule, substr($mincount, 1, length($mincount) - 2));
 		push(@one_rule, substr($maxcount, 1, length($maxcount) - 2));
 		push(@one_rule, substr($message, 1, length($message) - 2));
-		push(@one_rule, substr($code, 1, length($code) - 3));			# need to figure out why has to be 3. 
+		push(@one_rule, substr($code, 1, length($code) - 3));	
 
 		push(@all_rules, \@one_rule);
 	}
